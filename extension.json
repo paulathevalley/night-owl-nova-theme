@@ -4,5 +4,7 @@
   "organization": "Paula Lavalle",
   "description": "Night Owl (Dark) Theme for Nova",
   "version": "1.0",
+  "bugs": "https://github.com/paulathevalley/night-owl-nova-theme/issues",
+  "repository": "https://github.com/BenjaminHoegh/night-owl-nova-theme",
   "categories": ["themes"]
 }
