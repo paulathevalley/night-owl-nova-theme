@@ -2,9 +2,9 @@
   "identifier": "org.NightOwlDark",
   "name": "Night Owl (Dark)",
   "organization": "Paula Lavalle",
-  "description": "Night Owl (Dark) Theme for Nova",
+  "description": "Sarah Drasner's Night Owl (Dark) Theme ported from VSCode",
   "version": "1.0",
   "bugs": "https://github.com/paulathevalley/night-owl-nova-theme/issues",
-  "repository": "https://github.com/BenjaminHoegh/night-owl-nova-theme",
+  "repository": "https://github.com/paulathevalley/night-owl-nova-theme/",
   "categories": ["themes"]
 }
