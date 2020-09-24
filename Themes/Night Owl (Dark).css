@@ -12,7 +12,7 @@ meta.window {
   border-color: #011627;
 }
 meta.titlebar {
-  color: hsb(210, 10%, 80%);
+  color: #D6DEEB;
   background-color: #011627;
   border-color: hsba(206, 65%, 34%, 0.6);
 }
@@ -85,6 +85,7 @@ meta.text.invisible {
   color: hsb(210, 20%, 20%);
 }
 meta.text.selected {
+  background-color: #1d3b53;
 }
 
 /* Cursor */
@@ -94,16 +95,16 @@ meta.cursor {
 
 /* Indentation Guides */
 meta.indentguide {
-  border-color: hsba(220, 10%, 50%, 0.2);
+  border-color: hsba(221, 54%, 81%, 0.52);
 }
 
 /* Gutter */
 meta.gutter {
-  color: hsb(210, 10%, 40%);
+  background-color: #011627;
+  color: #1D3B53;
 }
 meta.gutter.selected {
-  background-color: hsb(210, 10%, 10%);
-  color: hsb(210, 10%, 80%);
+  color: #D6DEEB;
 }
 
 /*
@@ -111,46 +112,46 @@ meta.gutter.selected {
  */
 
 keyword {
-  color: hsb(210, 60%, 100%);
+  color: #7FDBCA;
 }
 comment {
-  color: hsb(210, 20%, 50%);
+  color: #637777;
 }
 processing {
-  color: hsb(210, 20%, 50%);
+  color: #637777;
 }
 declaration {
-  color: hsb(210, 20%, 50%);
+  color: #637777;
 }
 bracket {
-  color: hsb(210, 20%, 52%);
+  color: #687D7D;
 }
 operator {
-  color: hsb(210, 20%, 52%);
+  color: #687D7D;
 }
 invalid {
-  background-color: hsb(355, 82%, 96%);
-  color: hsb(60, 3%, 97%);
+  background-color: #FF2C83;
+  color: #ffffff;
 }
 link {
-  color: hsb(210, 60%, 100%);
+  color: #7FDBCA;
 }
 
 /* Values */
 value.boolean {
-  color: hsb(210, 60%, 100%);
+  color: #7FDBCA;
 }
 value.null {
-  color: hsb(210, 60%, 100%);
+  color: #7FDBCA;
 }
 value.number {
-  color: hsb(210, 60%, 100%);
+  color: #7FDBCA;
 }
 value.entity {
-  color: hsb(210, 60%, 100%);
+  color: #7FDBCA;
 }
 value.symbol {
-  color: hsb(210, 60%, 100%);
+  color: #7FDBCA;
 }
 
 /* Identifiers */
@@ -170,7 +171,7 @@ identifier.method {
   color: hsb(166, 40%, 78%);
 }
 identifier.key {
-  color: hsb(210, 60%, 100%);
+  color: #7FDBCA;
 }
 identifier.argument {
   color: hsb(268, 34%, 100%);
@@ -196,7 +197,7 @@ regex.escaped {
   color: hsb(27, 72%, 99%);
 }
 cdata {
-  color: hsb(210, 60%, 100%);
+  color: #7FDBCA;
 }
 
 /* Markup */
@@ -256,7 +257,7 @@ tag.attribute.value {
   color: hsb(5, 62%, 100%);
 }
 tag.attribute.value.link {
-  color: hsb(210, 60%, 100%);
+  color: #7FDBCA;
 }
 
 /* Styles */
@@ -289,8 +290,8 @@ style.value.color.hex {
   color: hsb(249, 45%, 96%);
 }
 style.value.keyword {
-  color: hsb(210, 60%, 100%);
+  color: #7FDBCA;
 }
 style.value.color.named {
-  color: hsb(210, 60%, 100%);
+  color: #;
 }
