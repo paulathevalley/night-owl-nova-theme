@@ -1,8 +1,8 @@
 {
-    "identifier": "org.NightOwlDark",
-    "name": "Night Owl (Dark)",
-    "organization": "Paula Lavalle",
-    "description": "Night Owl (Dark) Theme for Nova",
-    "version": "1.0",
-    "categories": ["themes"]
+  "identifier": "org.NightOwlDark",
+  "name": "Night Owl (Dark)",
+  "organization": "Paula Lavalle",
+  "description": "Night Owl (Dark) Theme for Nova",
+  "version": "1.0",
+  "categories": ["themes"]
 }
