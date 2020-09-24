@@ -1,7 +1,7 @@
 meta {
   -theme-interface-style: dark;
   -theme-vibrancy: none;
-  -theme-accent-color: auto;
+  -theme-accent-color: false;
 }
 
 /*
@@ -9,10 +9,10 @@ meta {
  */
 meta.window {
   background-color: #011627;
-  border-color: #011627;
+  border-color: hsba(206, 65%, 34%, 0.6);
 }
 meta.titlebar {
-  color: #D6DEEB;
+  color: #d6deeb;
   background-color: #011627;
   border-color: hsba(206, 65%, 34%, 0.6);
 }
@@ -46,9 +46,8 @@ meta.textfield {
   border-color: #4e6b85;
 }
 
-meta.accent {
-  /* TODO: */
-  color: hsb(204, 78%, 97%);
+meta.textfield.active {
+  border-color: hsba(206, 65%, 34%, 0.6);
 }
 
 /*
@@ -101,10 +100,10 @@ meta.indentguide {
 /* Gutter */
 meta.gutter {
   background-color: #011627;
-  color: #1D3B53;
+  color: #1d3b53;
 }
 meta.gutter.selected {
-  color: #D6DEEB;
+  color: #d6deeb;
 }
 
 /*
@@ -112,7 +111,7 @@ meta.gutter.selected {
  */
 
 keyword {
-  color: #7FDBCA;
+  color: #c792ea;
 }
 comment {
   color: #637777;
@@ -124,105 +123,117 @@ declaration {
   color: #637777;
 }
 bracket {
-  color: #687D7D;
+  color: #687d7d;
 }
 operator {
-  color: #687D7D;
+  color: #7fdbca;
 }
 invalid {
-  background-color: #FF2C83;
+  background-color: #ff2c83;
   color: #ffffff;
 }
 link {
-  color: #7FDBCA;
+  color: #7fdbca;
 }
 
 /* Values */
 value.boolean {
-  color: #7FDBCA;
+  color: #ff5874;
 }
 value.null {
-  color: #7FDBCA;
+  color: #ff5874;
 }
 value.number {
-  color: #7FDBCA;
+  color: #f78c6c;
 }
 value.entity {
-  color: #7FDBCA;
+  color: #7fdbca;
 }
 value.symbol {
-  color: #7FDBCA;
+  color: #7fdbca;
 }
 
 /* Identifiers */
 identifier.type {
-  color: hsb(258, 40%, 87%);
+  color: #ffcb8b;
+}
+identifier.type.class {
+  color: #ffcb8b;
 }
 identifier.constant {
+  /* color: #82aaff; */
+  color: #addb67;
 }
 identifier.global,
 identifier.variable {
-  color: hsb(268, 34%, 100%);
+  color: #addb67;
 }
-identifier.property,
+identifier.function {
+  color: #82aaff;
+}
+identifier.property {
+  color: #7fdbca;
+}
 identifier.decorator,
-identifier.function,
 identifier.method {
-  color: hsb(166, 40%, 78%);
+  color: #82aaff;
 }
 identifier.key {
-  color: #7FDBCA;
+  color: #7fdbca;
 }
 identifier.argument {
-  color: hsb(268, 34%, 100%);
+  color: #d7dbe0;
 }
 
 /* Strings */
 string {
-  color: hsb(5, 65%, 100%);
+  color: #ecc48d;
 }
 string.key {
-  color: hsb(5, 65%, 100%);
+  color: #addb67;
 }
 string-template {
-  color: hsb(27, 60%, 100%);
+  color: #addb67;
 }
 string-template.value {
-  color: hsb(27, 72%, 100%);
+  color: #7fdbca;
 }
 regex {
-  color: hsb(40, 72%, 100%);
+  color: #5ca7e4;
 }
 regex.escaped {
-  color: hsb(27, 72%, 99%);
+  color: #ecc48d;
 }
 cdata {
-  color: #7FDBCA;
+  color: #7fdbca;
 }
 
 /* Markup */
 markup.heading {
-  color: hsb(30, 50%, 80%);
+  color: #82b1ff;
 }
 markup.line {
-  color: hsb(60, 50%, 75%);
+  color: #7fdbca;
 }
 markup.bold {
-  color: hsb(196, 60%, 76%);
+  color: #addb67;
   font-weight: bold;
 }
 markup.italic {
-  color: hsb(94, 40%, 80%);
+  color: #c792ea;
   font-style: italic;
 }
 markup.strikethrough {
-  color: hsb(0, 60%, 100%);
+  color: #ff5874;
 }
 markup.list.item {
-  color: hsb(30, 50%, 80%);
+  color: #82b1ff;
 }
 markup.code {
-  background-color: rgba(128, 128, 128, 0.2);
+  color: #80cbc4;
+}
+markup.link {
+  color: #ff869a;
 }
 
 /* Types */
@@ -233,65 +244,65 @@ definition.enum enum.name,
 definition.union union.name,
 definition.struct struct.name {
   font-weight: bold;
-  color: hsb(258, 40%, 87%);
+  color: #ffcb8b;
 }
 
 /* Members */
 definition.property property.name,
 definition.function function.name,
 definition.method method.name {
-  color: hsb(210, 10%, 100%);
+  color: #d6deeb;
 }
 
 /* Tags */
 tag {
-  color: hsb(166, 40%, 78%);
+  color: #7fdbca;
 }
 tag.framework {
-  color: hsb(258, 40%, 87%);
+  color: #ffcb8b;
 }
 tag.attribute.name {
-  color: hsb(95, 54%, 82%);
+  color: #addb67;
 }
 tag.attribute.value {
-  color: hsb(5, 62%, 100%);
+  color: #ecc48d;
 }
 tag.attribute.value.link {
-  color: #7FDBCA;
+  color: #7fdbca;
 }
 
 /* Styles */
 style.at {
-  color: hsb(25, 75%, 100%);
+  color: #7fdbca;
   font-weight: bold;
 }
 style.selector.element {
-  font-weight: bold;
+  color: #ff5874;
 }
 style.selector.identifier.id {
-  color: hsb(166, 40%, 78%);
+  color: #f8cd26;
 }
 style.selector.identifier.class {
-  color: hsb(258, 40%, 87%);
+  color: #addb67;
 }
 style.selector.pseudoclass {
-  color: hsb(258, 40%, 87%);
+  color: #addb67;
 }
 style.selector.pseudoelement {
-  color: hsb(166, 40%, 78%);
+  color: #addb67;
 }
 style.attribute.name {
-  color: hsb(148, 35%, 70%);
+  color: #7fdbca;
 }
 style.value.number {
-  color: hsb(249, 45%, 96%);
+  color: #f78c6c;
 }
 style.value.color.hex {
-  color: hsb(249, 45%, 96%);
+  color: #ffeb95;
 }
 style.value.keyword {
-  color: #7FDBCA;
+  color: #7fdbca;
 }
 style.value.color.named {
-  color: #;
+  color: #7fdbca;
 }
