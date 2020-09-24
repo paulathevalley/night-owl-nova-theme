@@ -81,7 +81,7 @@ meta.text {
   color: #d6deeb;
 }
 meta.text.invisible {
-  color: hsb(210, 20%, 20%);
+  color: #2e3248;
 }
 meta.text.selected {
   background-color: #1d3b53;
